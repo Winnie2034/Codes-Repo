@@ -61,7 +61,7 @@ int find_key(vector<int> arr, int n, int key)
 
     if (arr[pivot] == key)
     {
-        return key;
+        return pivot;
     }
 
     if (key < arr[0])
