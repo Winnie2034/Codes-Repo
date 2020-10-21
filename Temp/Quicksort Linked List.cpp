@@ -77,7 +77,8 @@ node *quickSortRecur(node *head, node *tail)
 
     node *pivot = partition(head, tail, &modhead, &modtail);
 
-    if (modhead != pivot)
+    if (modhead != pivot) //if pivot is the starting element of the list then
+    //there is no need to recur on the left side
     {
         node *temp = modhead;
         while (temp->next != pivot)
