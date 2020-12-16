@@ -106,3 +106,5 @@ int main()
 
     return 0;
 }
+
+//the kth largest element can be calculated by min heap as well as max heap.

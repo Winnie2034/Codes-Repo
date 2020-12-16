@@ -1,5 +1,6 @@
 /*
 Given a sorted array and a value 'x', find the 'k' closest elements to x in the array.
+array is not sorted.
 */
 
 #include <bits/stdc++.h>
