@@ -1,2 +1,2 @@
 # Codes-Repo
-CodeChef problems
+Coding Problems
